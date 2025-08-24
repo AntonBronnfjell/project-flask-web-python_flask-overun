@@ -18,24 +18,3 @@ env/
 .idea/
 .vscode/
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pyc
-
-# Environments
-venv/
-.env
-.venv
-env/
-
-# OS
-.DS_Store
-
-# IDE
-.idea/
-.vscode/
-
-
