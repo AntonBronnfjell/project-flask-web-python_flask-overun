@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Usuarios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <h1>Usuarios</h1>
+    <ul>
+        {% for usuario in usuarios %}
+        <li>{{ usuario.nombre }} - {{ usuario.email }}</li>
+        {% endfor %}
+    </ul>
+    <p><a href="/add_user/Nombre/usuario@example.com">Agregar de prueba</a></p>
+    <p><a href="/usuarios">Refrescar lista</a></p>
+</body>
+</html>
